@@ -1,10 +1,12 @@
 {
   "name": "zimmed-downloader-governor",
   "version": "0.0.0",
-  "description": "Web server for managing zimmed-downloader instances.",
+  "description": "REQUIRES PLOWSHARE: Web server for managing zimmed-downloader instances.",
   "main": "src/index.js",
   "scripts": {
-    "test": "mocha 'src/**/*.spec.js'"
+    "test": "./node_modules/.bin/mocha 'src/**/*.spec.js'",
+    "start": "node app.js",
+    "pretty": "npm run server | bunyan"
   },
   "repository": {
     "type": "git",
