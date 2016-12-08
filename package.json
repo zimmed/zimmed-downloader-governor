@@ -21,5 +21,17 @@
   "devDependencies": {
     "chai": "^3.5.0",
     "mocha": "^3.2.0"
+  },
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "bunyan": "^1.8.5",
+    "express": "^4.14.0",
+    "lodash": "^4.17.2",
+    "zimmed-cypher": "^1.0.1",
+    "zimmed-event": "^1.0.0",
+    "zimmed-rethink": "^1.0.1",
+    "zimmed-simple-cache": "^1.0.1",
+    "zimmed-socket": "^1.0.2",
+    "zimmed-timestamp": "^1.0.0"
   }
 }
