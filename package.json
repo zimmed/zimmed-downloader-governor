@@ -1,0 +1,23 @@
+{
+  "name": "zimmed-downloader-governor",
+  "version": "0.0.0",
+  "description": "Web server for managing zimmed-downloader instances.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha 'src/**/*.spec.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zimmed/zimmed-downloader-governor"
+  },
+  "author": "zimmed@zimmed.io",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zimmed/zimmed-downloader-governor/issues"
+  },
+  "homepage": "https://github.com/zimmed/zimmed-downloader-governor",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
