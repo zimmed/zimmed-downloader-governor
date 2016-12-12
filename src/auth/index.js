@@ -39,7 +39,7 @@ const Auth = {
     },
 
     setPublicKey: (downloaderName, pubKey) => {
-        return pubKey && cache.set('pub', rsa.load(pubKey));
+        return pubKey && cache.set(`downloaders.${downloaderName}.pub`, rsa.load(pubKey));
     },
 
     createPair: (downloaderName) => {
